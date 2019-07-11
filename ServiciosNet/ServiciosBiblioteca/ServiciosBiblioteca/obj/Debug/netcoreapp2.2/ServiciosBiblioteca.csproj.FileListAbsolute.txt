@@ -1,0 +1,14 @@
+E:\net\Angular\PruebaTecnica\ServiciosNet\ServiciosBiblioteca\ServiciosBiblioteca\bin\Debug\netcoreapp2.2\ServiciosBiblioteca.deps.json
+E:\net\Angular\PruebaTecnica\ServiciosNet\ServiciosBiblioteca\ServiciosBiblioteca\bin\Debug\netcoreapp2.2\ServiciosBiblioteca.runtimeconfig.json
+E:\net\Angular\PruebaTecnica\ServiciosNet\ServiciosBiblioteca\ServiciosBiblioteca\bin\Debug\netcoreapp2.2\ServiciosBiblioteca.runtimeconfig.dev.json
+E:\net\Angular\PruebaTecnica\ServiciosNet\ServiciosBiblioteca\ServiciosBiblioteca\bin\Debug\netcoreapp2.2\ServiciosBiblioteca.dll
+E:\net\Angular\PruebaTecnica\ServiciosNet\ServiciosBiblioteca\ServiciosBiblioteca\bin\Debug\netcoreapp2.2\ServiciosBiblioteca.pdb
+E:\net\Angular\PruebaTecnica\ServiciosNet\ServiciosBiblioteca\ServiciosBiblioteca\obj\Debug\netcoreapp2.2\ServiciosBiblioteca.csprojAssemblyReference.cache
+E:\net\Angular\PruebaTecnica\ServiciosNet\ServiciosBiblioteca\ServiciosBiblioteca\obj\Debug\netcoreapp2.2\ServiciosBiblioteca.csproj.CoreCompileInputs.cache
+E:\net\Angular\PruebaTecnica\ServiciosNet\ServiciosBiblioteca\ServiciosBiblioteca\obj\Debug\netcoreapp2.2\ServiciosBiblioteca.RazorAssemblyInfo.cache
+E:\net\Angular\PruebaTecnica\ServiciosNet\ServiciosBiblioteca\ServiciosBiblioteca\obj\Debug\netcoreapp2.2\ServiciosBiblioteca.RazorAssemblyInfo.cs
+E:\net\Angular\PruebaTecnica\ServiciosNet\ServiciosBiblioteca\ServiciosBiblioteca\obj\Debug\netcoreapp2.2\ServiciosBiblioteca.AssemblyInfoInputs.cache
+E:\net\Angular\PruebaTecnica\ServiciosNet\ServiciosBiblioteca\ServiciosBiblioteca\obj\Debug\netcoreapp2.2\ServiciosBiblioteca.AssemblyInfo.cs
+E:\net\Angular\PruebaTecnica\ServiciosNet\ServiciosBiblioteca\ServiciosBiblioteca\obj\Debug\netcoreapp2.2\ServiciosBiblioteca.RazorTargetAssemblyInfo.cache
+E:\net\Angular\PruebaTecnica\ServiciosNet\ServiciosBiblioteca\ServiciosBiblioteca\obj\Debug\netcoreapp2.2\ServiciosBiblioteca.dll
+E:\net\Angular\PruebaTecnica\ServiciosNet\ServiciosBiblioteca\ServiciosBiblioteca\obj\Debug\netcoreapp2.2\ServiciosBiblioteca.pdb
