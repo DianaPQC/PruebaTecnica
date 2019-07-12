@@ -2,25 +2,26 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.EntityFrameworkCore;
 using System.ComponentModel.DataAnnotations;
 using Microsoft.Extensions.Configuration;
 
 namespace ServiciosBiblioteca.Models
 {
-    //[Table("tblCategoria", Schema ="dbo")]
-    
-    public class tblCategoria
+    public class tblAutor
     {
         [Key]
-        public int? idCategoria { get; set; }
+        public int? idAutor { get; set; }
 
         [Required]
         [StringLength(150)]
-        public string nombre { get; set; }
+        public string nombres { get; set; }
 
         [Required]
-        [StringLength(250)]
-        public string descripcion { get; set; }
+        [StringLength(150)]
+        public string apellidos { get; set; }
+
+        [Required]
+        [DataType(DataType.Date)]
+        public DateTime fechaNacimiento { get; set; }
     }
 }
