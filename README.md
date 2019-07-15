@@ -9,5 +9,10 @@ Se encuentran Tres archivos con:
 
 Para visualizar los proyectos se deben seguir los siguientes puntos:
 
-1. ServiciosNet: Proyecto .Net Core.
-a. En la carpeta ServiciosBiblioteca 
+1. En la carpeta "Documentacion" se encuentra el modelo entidad relacion.
+2. ServiciosNet: Proyecto .Net Core.
+a. En la carpeta ServiciosBiblioteca se debe ajustar el archivo appsettings.Development.json  la cadena de conexion 
+    "Biblioteca": "Server=DESKTOP-SCLRQSO\\MSSQLSERVER01;Database=Biblioteca;Trusted_Connection=True;MultipleActiveResultSets=true"
+
+
+
