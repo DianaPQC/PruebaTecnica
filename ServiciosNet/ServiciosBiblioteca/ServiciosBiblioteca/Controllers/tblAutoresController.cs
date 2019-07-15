@@ -24,7 +24,8 @@ namespace ServiciosBiblioteca.Controllers
 
 
         [HttpGet]
-        public IEnumerable<tblAutor> GetPlayer()
+        [Route("GetAllAutores")]
+        public IEnumerable<tblAutor> GetAllAutores()
         {
             return _context.tblAutor.ToList();
         }

@@ -8,9 +8,9 @@ namespace ServiciosBiblioteca.Models
 {
     public class Context : DbContext
     {
+        /*Contexto de la base de datos.*/
         private readonly string connectionString;
-
-
+        
         public Context(DbContextOptions<Context> options) : base(options)
         {
             Database.Migrate();

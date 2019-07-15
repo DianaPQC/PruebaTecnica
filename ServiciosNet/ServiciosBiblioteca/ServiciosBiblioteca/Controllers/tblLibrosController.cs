@@ -23,9 +23,14 @@ namespace ServiciosBiblioteca.Controllers
 
 
         [HttpGet]
-        public IEnumerable<tblLibro> GetPlayer()
+        [Route("GetAllLibros")]
+        public IEnumerable<tblLibro> GetAllLibros()
         {
-            return _context.tblLibro.ToList();
+
+            return _context.tblLibro
+                .Include(categ => categ.tblCategoria)
+                .Include(auto => auto.tblAutor)
+                .ToList();
         }
     }
 }

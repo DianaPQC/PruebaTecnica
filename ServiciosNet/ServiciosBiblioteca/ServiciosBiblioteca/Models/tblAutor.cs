@@ -9,6 +9,7 @@ namespace ServiciosBiblioteca.Models
 {
     public class tblAutor
     {
+        /*Modelo tabla tblAutor*/
         [Key]
         public int? idAutor { get; set; }
 
@@ -23,5 +24,6 @@ namespace ServiciosBiblioteca.Models
         [Required]
         [DataType(DataType.Date)]
         public DateTime fechaNacimiento { get; set; }
+
     }
 }

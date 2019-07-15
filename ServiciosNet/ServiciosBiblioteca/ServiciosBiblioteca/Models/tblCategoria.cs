@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using System.ComponentModel.DataAnnotations;
 using Microsoft.Extensions.Configuration;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ServiciosBiblioteca.Models
 {
@@ -22,5 +23,6 @@ namespace ServiciosBiblioteca.Models
         [Required]
         [StringLength(250)]
         public string descripcion { get; set; }
+
     }
 }

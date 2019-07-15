@@ -4,6 +4,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations;
 using Microsoft.Extensions.Configuration;
+using System.ComponentModel.DataAnnotations.Schema;
+using ServiciosBiblioteca.Models;
 
 
 namespace ServiciosBiblioteca.Models
@@ -18,9 +20,19 @@ namespace ServiciosBiblioteca.Models
         public string nombre { get; set; }
 
         [Required]
+        public int isbn { get; set; }
+
+        [Required]
         public int idAutor { get; set; }
 
         [Required]
         public int idCategoria { get; set; }
+
+
+        [ForeignKey("idCategoria")]
+        public tblCategoria tblCategoria { get; set; }
+
+        [ForeignKey("idAutor")]
+        public tblAutor tblAutor { get; set; }
     }
 }
