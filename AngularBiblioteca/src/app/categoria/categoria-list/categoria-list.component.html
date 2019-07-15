@@ -1,0 +1,24 @@
+<div class="panel panel-primary">
+    <div class="panel-heading">
+        <h2>Lista Categorias</h2>
+    </div>
+    <div class="panel-body">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Nombre</th>
+                    <th>Descripcion</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let categoria of categorias | async">
+                    <td>{{categoria.idCategoria}}</td>
+                    <td>{{categoria.nombre}}</td>
+                    <td>{{categoria.descripcion}}</td>
+
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

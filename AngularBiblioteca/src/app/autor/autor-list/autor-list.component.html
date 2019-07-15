@@ -1,0 +1,26 @@
+<div class="panel panel-primary">
+    <div class="panel-heading">
+        <h2>Lista Autores</h2>
+    </div>
+    <div class="panel-body">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Nombres</th>
+                    <th>Apellidos</th>
+                    <th>Fecha Nacimiento</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let autor of autores | async">
+                    <td>{{autor.idAutor}}</td>
+                    <td>{{autor.nombres}}</td>
+                    <td>{{autor.apellidos}}</td>
+                    <td>{{autor.fechaNacimiento}}</td>
+
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

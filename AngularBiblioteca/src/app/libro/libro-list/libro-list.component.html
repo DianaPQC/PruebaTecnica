@@ -1,0 +1,27 @@
+<div class="panel panel-primary">
+    <div class="panel-heading">
+        <h2>Lista Libros</h2>
+    </div>
+    <div class="panel-body">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Nombre</th>
+                    <th>ISBN</th>
+                    <th>Autor</th>
+                    <th>Categoria</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let libro of libros | async">
+                    <td>{{libro.idLibro}}</td>
+                    <td>{{libro.nombre}}</td>
+                    <td>{{libro.isbn}}</td>
+                    <td>{{libro.tblAutor.nombres}}</td>
+                    <td>{{libro.tblCategoria.nombre}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

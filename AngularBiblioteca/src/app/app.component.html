@@ -1,0 +1,60 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Biblioteca</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- Links -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Categorias
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" routerLink="categorias" class="nav-link" routerLinkActive="active">Lista</a>
+                    <a routerLink="addCategoria" class="nav-link" routerLinkActive="active">Crear</a>
+                    <a class="dropdown-item" href="#">Editar</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Autores
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" routerLink="autores" class="nav-link" routerLinkActive="active">Lista</a>
+                    <a routerLink="addCategoria" class="nav-link" routerLinkActive="active">Crear</a>
+                    <a class="dropdown-item" href="#">Editar</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Libros
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" routerLink="libros" class="nav-link" routerLinkActive="active">Lista</a>
+                    <a class="dropdown-item" href="#">Crear</a>
+                    <a class="dropdown-item" href="#">Editar</a>
+                </div>
+            </li>
+
+        </ul>
+    </div>
+</nav>
+
+
+<div class="container">
+    <br>
+    <h2 style="text-align: center;">{{title}}</h2>
+    <hr>
+    <div class="card">
+        <div class="card-body">
+            <router-outlet></router-outlet>
+        </div>
+    </div>
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <span>All Rights Reserved 2019 @JavaGuides</span>
+    </div>
+</footer>
